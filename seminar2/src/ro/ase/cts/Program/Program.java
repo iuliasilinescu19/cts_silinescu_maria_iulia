@@ -13,13 +13,15 @@ import java.util.List;
 
 public class Program {
 
-	public static List<Aplicant> citesteAplicanti(String numeFisier, Readable reader) throws FileNotFoundException {
-		return reader.readAplicanti(numeFisier);
+	public static List<Aplicant> citesteAplicanti(Readable reader) throws FileNotFoundException {
+		return reader.readAplicanti();
 	}
 	public static void main(String[] args) {
 		List<Aplicant> listaAplicanti;
 		try {
-			listaAplicanti = citesteAplicanti("seminar2/elevi.txt",new EleviReader());
+			//vrem ca cei doi parametri sa fie primiti dintr-un singur loc
+			//Fisierul sa coincida cu reader-ul.
+			listaAplicanti = citesteAplicanti(new EleviReader("seminar2/elevi.txt"));
 			for(Aplicant aplicant:listaAplicanti)
 				System.out.println(aplicant.toString());
 		} catch (FileNotFoundException e) {
