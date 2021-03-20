@@ -21,6 +21,12 @@ public class Main {
         ParlamentLazy parlamentLazy2=ParlamentLazy.getInstance("UK",500,2,"Sediul UK");
         System.out.println(parlamentLazy.toString());
         System.out.println(parlamentLazy2.toString());
+        System.out.println("------------------");
+
+        Basm basm1=Basm.getInstance("Alba ca zapada si cei 7 pitici",1,true);
+        Basm basm2=Basm.getInstance("Frumoasa si bestia",2,false);
+        System.out.println(basm1.toString());
+        System.out.println(basm2.toString());
 
     }
 }
