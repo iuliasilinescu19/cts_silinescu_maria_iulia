@@ -9,5 +9,9 @@ public class Main {
         System.out.println(medic);
         System.out.println(brancardier);
         //el nu interactioneaza cu clasele concrete.
+
+        //FactorySingleton:
+        PersonalMedical medic2=FactorySingleton.getInstance().create(TipPersonal.MEDIC,"ALINA AVRAM",388f);
+        System.out.println(medic2);
     }
 }
