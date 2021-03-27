@@ -1,4 +1,4 @@
-package ro.ase.cts.Clase;
+package ro.ase.cts.PrototypeClasses;
 
 public class Basm {
     private String titlu;

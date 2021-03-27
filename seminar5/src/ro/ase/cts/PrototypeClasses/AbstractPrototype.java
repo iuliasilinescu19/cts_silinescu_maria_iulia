@@ -1,4 +1,4 @@
-package ro.ase.cts.Clase;
+package ro.ase.cts.PrototypeClasses;
 
 public interface AbstractPrototype {
     public AbstractPrototype copiaza();
