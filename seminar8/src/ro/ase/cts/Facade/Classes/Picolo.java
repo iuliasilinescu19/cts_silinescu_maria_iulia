@@ -1,6 +1,6 @@
 package ro.ase.cts.Facade.Classes;
 
-    class Picolo {
+    public class Picolo {
     //o masa a fost deja debaranjata?aranjata
     private String nume;
 
