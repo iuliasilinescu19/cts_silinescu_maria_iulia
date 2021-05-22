@@ -6,13 +6,7 @@ import ro.ase.cts.Class.Student;
 import static org.junit.Assert.*;
 
 public class StudentTest {
-
-    @Test
-    public void getNume() {
-        String nume="Gigel";
-        Student student=new Student(nume);
-        assertEquals(nume,student.getNume());
-    }
+    
 
     @Test
     public void setNume()
