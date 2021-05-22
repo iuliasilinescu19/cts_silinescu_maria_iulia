@@ -1,4 +1,4 @@
-package ro.ase.cts.PrototypeClasses;
+package ro.ase.cts.Prototype;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ro.ase.cts.PrototypeClasses;
+package ro.ase.cts.Prototype;
 
 public abstract class Aplicant{
 	protected String nume;

@@ -21,8 +21,8 @@ public class BuilderRezervare implements AbstractBuilder{
     }
 
     public BuilderRezervare setCodRezervare(int codRezervare) {
-       this.rezervare.setCodRezervare(codRezervare);
-       return this;
+        this.rezervare.setCodRezervare(codRezervare);
+        return this;
     }
 
     public BuilderRezervare setAreMancareInclusa(Boolean areMancareInclusa) {

@@ -1,4 +1,4 @@
-package ro.ase.cts.PrototypeClasses;
+package ro.ase.cts.Prototype;
 
 public class ParlamentLazy {
     private String tara;

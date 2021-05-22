@@ -11,6 +11,7 @@ public class Main {
                 .setAreScaunErgonomic(true).setGenMuzical("Indie");
         Rezervare rezervare2=builderRezervare.build();
         System.out.println(rezervare2.toString());
+        Rezervare rezervare8=new BuilderRezervare().setAreScaunErgonomic(true).setAreBauturaRacoritoareInclusa(true).build();
 
         //Mai eficient:
         Rezervare rezervare3=new BuilderRezervare()

@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Sectiune implements ComponentaAbstracta {
     private String numeSectiune;
+    private List<ComponentaAbstracta> listaComponente=new ArrayList<>();
+
 
     public Sectiune(String numeSectiune) {
         this.numeSectiune = numeSectiune;
@@ -15,7 +17,6 @@ public class Sectiune implements ComponentaAbstracta {
         this.listaComponente = listaComponente;
     }
 
-    private List<ComponentaAbstracta> listaComponente=new ArrayList<>();
     @Override
     public void printareElement() {
         System.out.println("Sectiunea "+this.numeSectiune);
