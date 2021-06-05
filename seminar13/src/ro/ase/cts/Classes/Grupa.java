@@ -60,7 +60,7 @@ public class Grupa {
                 nrRestantieri++;
             }
         }
-        return studenti.size()/nrRestantieri;
+        return (this.studenti.size()-nrRestantieri)/this.studenti.size();
     }
 
 

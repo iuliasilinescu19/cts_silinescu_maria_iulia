@@ -1,9 +1,11 @@
-package ro.ase.cts.Classes;
+package ro.ase.cts.Test;
 
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import ro.ase.cts.Classes.Grupa;
 import ro.ase.cts.Mock.StudentDummy;
+import ro.ase.cts.Mock.StudentStub;
 
 import static org.junit.Assert.*;
 
